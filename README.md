@@ -3,6 +3,8 @@
 ## 项目简介
 本项目基于 Microsoft AirSim 和 Unreal Engine 平台，构建了一个具备真实地理参考坐标的城市建筑仿真环境，结合 Python 控制脚本，实现了无人机沿 KML 文件定义路径的精准飞行。系统支持导入 FBX 建筑模型，并在场景中通过 GeoReferencingSystem 设定与现实地理坐标一致的原点，实现了从真实地理数据到虚拟空间的严密对齐。
 适用于城市感知、无人机路径规划、虚拟遥感测试、航迹重建等科研和教学应用。
+
+相同版本的airsim文件可通过git clone https://github.com/Microsoft/AirSim.git进行下载和安装
 ## 项目特性
 * 使用 Unreal Engine 的 GeoReferencingSystem 设置地理原点（WGS84 / UTM）
 * 导入 Blender 建模并导出的 FBX 建筑模型，并精确对齐世界坐标原点
