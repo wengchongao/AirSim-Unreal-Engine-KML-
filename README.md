@@ -1,5 +1,5 @@
-# AirSim-Unreal-Engine-KML-
-利用UE4引擎与pythpn脚本实现无人机仿真飞行
+# 利用UE4引擎与pythpn脚本实现无人机仿真飞行
+AirSim-Unreal-Engine-KML-
 ## 项目简介
 本项目基于 Microsoft AirSim 和 Unreal Engine 平台，构建了一个具备真实地理参考坐标的城市建筑仿真环境，结合 Python 控制脚本，实现了无人机沿 KML 文件定义路径的精准飞行。系统支持导入 FBX 建筑模型，并在场景中通过 GeoReferencingSystem 设定与现实地理坐标一致的原点，实现了从真实地理数据到虚拟空间的严密对齐。
 适用于城市感知、无人机路径规划、虚拟遥感测试、航迹重建等科研和教学应用。
